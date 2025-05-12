@@ -1,6 +1,6 @@
 ---
-title: Welcome to Quartz
+title: Home
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Hi there! My name is Darren Huang, and I'm an electrical engineering student at Purdue University. 
+
