@@ -1,10 +1,10 @@
 # darren's quartz
 
 an electrical engineer's attempt at trying to learn about software. 
-Built with Quartz V4.
+built with quartz v4.
 
 
-> 🔗 Documentation: https://quartz.jzhao.xyz/
+> 🔗 documentation: https://quartz.jzhao.xyz/
 
 
 
