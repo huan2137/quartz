@@ -1,4 +1,4 @@
-# darren's quartz
+# quartz
 
 an electrical engineer's attempt at trying to learn about software. 
 built with quartz v4.
