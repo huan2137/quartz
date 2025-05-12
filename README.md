@@ -1,10 +1,10 @@
-# Darren's Quartz
+# darren's quartz
 
-An electrical engineer's attempt at trying to learn about software. 
+an electrical engineer's attempt at trying to learn about software. 
 Built with Quartz V4.
 
 
-🔗 Documentation: https://quartz.jzhao.xyz/
+> 🔗 Documentation: https://quartz.jzhao.xyz/
 
 
 
