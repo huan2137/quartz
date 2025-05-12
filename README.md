@@ -1,6 +1,6 @@
 # Darren's Quartz
 
-An electrical engineer's first venture into trying to do things software. 
+An electrical engineer's attempt at trying to learn about software. 
 Built with Quartz V4.
 
 
