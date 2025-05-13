@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Darren Huang",
-    pageTitleSuffix: "",
+    pageTitleSuffix: "EE @ Purdue",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -23,8 +23,8 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Raleway",
+        body: "Merriweather",
         code: "IBM Plex Mono",
       },
       colors: {
