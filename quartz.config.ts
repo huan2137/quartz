@@ -23,14 +23,14 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Raleway",
-        body: "Merriweather",
+        header: "Merriweather",
+        body: "Caudex",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
+          light: "#E3FFF5",
+          lightgray: "#E3FFF5",
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
@@ -40,15 +40,15 @@ const config: QuartzConfig = {
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#151c10",
+          lightgray: "#293024",
+          gray: "#6f6c58",
+          darkgray: "#dedace",
+          dark: "#dedace",
+          secondary: "#dedace",
+          tertiary: "#989492",
+          highlight: "#293024", // fix the highlight color in dark mode
+          textHighlight: "#293024" // fix the text highlight color in dark mode
         },
       },
     },
