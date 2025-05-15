@@ -1,9 +1,9 @@
 ---
 title: Home
-cssclasses:
 ---
+Hi there! My name is Darren Huang, and I'm an electrical engineering student at Purdue University. I like computers, rockets, electronics, programming, and math. I use this space to document the progress of my projects and showcase what I'm currently working on
 
-Hi there! My name is Darren Huang, and I'm an electrical engineering student at Purdue University. I like computers, rockets, electronics, programming, and math. 
+I'm currently an avionics engineer on Purdue Space Program, Purdue's 
 
 I want to use this space primarily as a way to document the progress of my projects. These projects are really important to me; they've been a great way for me to put my technical skills to the test, and also give me an opportunity to build something I'm interested in outside of my classes and labs (although I find those very interesting too).
 
@@ -11,3 +11,5 @@ Communication of knowledge is something that I'm really interested in; more spec
 
 All in all, I want this space to represent myself in some capacity, from the way that I think to the things that I do. Feel free to explore and reach out if you want to talk about anything!
 
+![[Pasted image 20250514234443.png]]
+>The Wabash River next to Purdue University
