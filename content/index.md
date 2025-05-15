@@ -1,5 +1,6 @@
 ---
 title: Home
+cssclasses:
 ---
 
 Hi there! My name is Darren Huang, and I'm an electrical engineering student at Purdue University. I like computers, rockets, electronics, programming, and math. 
