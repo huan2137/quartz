@@ -10,6 +10,8 @@ Each of these methods have their own pros and cons based on how they work. In th
 
 ### Voltage Divider
 
+![[Pasted image 20250527183429.png]]
+
 The voltage divider is the easiest way to step down a voltage but comes with many drawbacks that are often dealbreakers. For one, it only works with a constant resistive load, because the load in parallel with the bottom resistor of the voltage divider causes the output voltage to dip. This means you would need a buffer circuit with an operational amplifier or readjust the resistor values to ensure you're getting the output voltage you need. 
 
 Another drawback is current; since the current is being sent through two resistors, a lot of energy is dissipated as heat. Additionally, the current is being split at the load and the bottom resistor, which might not even be enough for your application. Increasing the resistor values to increase efficiency and reduce waste current just makes the output voltage easy to upset with a load in parallel (as mentioned above), while decreasing the resistor values to drive loads with less error generates way more heat.
@@ -18,6 +20,7 @@ In short, a voltage divider is useful for getting a reference voltage, but is pr
 
 
 ### Buck Converter
+ ![[Pasted image 20250527183558.png]]
 
 The buck converter is also known as a specific type of DC-DC regulator where the output voltage is less than the input voltage. The buck converter achieves the voltage drop with a switching component; by switching on and off, the average voltage across the load for a certain time period will decrease. This on and off switching action creates an AC square wave, and a low pass filter is then used to smooth out the wave and effectively convert it back to DC. The diode, also known as a freewheeling diode, is in place to ensure that current does not flow backwards into the switching component. 
 
@@ -30,6 +33,8 @@ where $D$ is the duty cycle, or the ratio of the time when the switch is on to t
 The buck converter is an excellent option for efficiency as little heat is dissipated in the circuit and handles higher currents. However, the due to the nature of switching regulators, there tends to be a good amount of noise generated due to the ripple from the low pass filter. The buck converter is great for stepping down large voltages without many losses, and when you can tolerate a little bit of noise.
 
 ### LDO Regulator
+
+![[Pasted image 20250527183936.png]]
 
 LDO stands for linear drop-out, meaning that there is a specific dropout voltage value (which differs between specific components) that guarantees a regulated output voltage. The inequality that describes an LDO regulator is:
 
