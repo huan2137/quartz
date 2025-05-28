@@ -46,6 +46,6 @@ The LDO regulator takes advantage of pass elements (MOSFETs or BJT) in their ohm
 
 >The image above is from an [Infineon application note](https://www.infineon.com/dgdl/Infineon+-+Application+Note+-+PowerMOSFETs+-+OptiMOS%E2%84%A2+-+Linear+Mode+Operation+and+SOA+Power+MOSFETs.pdf?fileId=db3a30433e30e4bf013e3646e9381200), and describes the output characteristics of a power MOSFET. 
 
-as a variable resistor; when combined with the error amplifier, changes in $Vin$ result in a constant $Vout$. This method of operating the pass element in the ohmic region allows for a very small dropout voltage, all while doing active regulation, which is something a simple voltage divider cannot do.
+When combined with the error amplifier, changes in $Vin$ result in a constant $Vout$. This method of operating the pass element in the ohmic region allows for a very small dropout voltage, all while doing active regulation, which is something a simple voltage divider cannot do.
 
 It's really easy to get into the nitty gritty of LDOs and how their performance varies at different temperatures, output currents, and voltage differentials. For example, the maximum output current massively decreases as you increase the voltage differential, and the dropout voltage value increases as output current increases. This means that selecting the correct LDO component is crucial to making sure that you get the outputs that you want. All of this information should be checked against the datasheet of the specific LDO that you want to use.
