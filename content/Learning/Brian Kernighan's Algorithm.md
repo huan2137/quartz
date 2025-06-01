@@ -1,0 +1,11 @@
+Brian Kernighan's algorithm is a method used to efficiently count the number of set bits (the number of 1s) in a binary representation of a integer. For example, the integer 11 is 1011 in binary, and the algorithm would return 3 because there are 3 set bits in 1011. The algorithm has a time complexity of O(logn), where n is the value of the integer. This is because the algorithm iterates as many times as there are set bits in the integer, and the max number of set bits in the binary representation of the integer is log(n) set bits.
+
+The algorithm works by clearing the least significant set bit until no set bits are left. The number of iterations represents the number of set bits in the binary number. 
+
+First, it's useful to notice that subtracting 1 from the integer results in the binary representation flips the bits to the right of the least significant set bit, including that set bit itself. For example, the integer 12 is 1100 in binary, and subtracting 1 from the integer results in 11, causing the rightmost three bits (where the third bit is the least significant set bit) to flip. The resulting binary is 1011, which is 11. Subtracting 1 from 11 results in 10, and flipping only the last digit (which is the least significant set bit) results in 1010, which is 10.
+
+Next, we can see that using the AND (&) operation with the integer and the integer minus one results in the least significant set bit getting cleared. With our previous example, the & of 12 and 11 in binary is 1100 & 1011 which is 1000. The least significant set bit, which is the third bit in 1100 (12), is cleared, resulting in 1000. 
+
+The algorithm uses the subtraction and the & operation to clear set bits one by one until no set bits remain. Each iteration results in one set bit being cleared, which represents the total number of set bits in the integer. 
+
+Of course, you could iterate through each bit individually and count the number of set bits that way, but Brian Kernighan's algorithm is faster because it skips the bits that are zeroes and jumps directly to set bits.
