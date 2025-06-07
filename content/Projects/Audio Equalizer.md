@@ -1,5 +1,9 @@
 This project was a successful attempt to combine theoretical knowledge on operational amplifiers, power amplifiers, and filters to create an audio equalizer. 
 
+![[Pasted image 20250606234707.png]]
+>Image of the audio equalizer circuit - my breadboarding skills need work :D
+
+
 In layman's terms, audio signals are electronic representations of sound. Here is how the audio equalizer allows for customization of this audio signal:
 1. The audio equalizer uses filters (circuits that "filter out" signals of certain frequencies) to split the audio signal into a bass, mid, and treble signal. 
 2. These three signals are then sent to circuits that allow the user to adjust how much gain (ratio of output to input) they would like on each signal. 
