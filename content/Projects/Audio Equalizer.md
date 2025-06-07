@@ -11,7 +11,8 @@ In layman's terms, audio signals are electronic representations of sound. Here i
 4. The recombined audio signal is then sent through a circuit that amplifies the power output of the signal. 
 5. The final signal is sent through the speaker, resulting in the sound that you hear.
 
+Check out a demonstration of my audio equalizer here on YouTube: [Audio Equalizer Project Demo](https://youtube.com/shorts/K8TEPwkgcrY?feature=share)
 
-
+Below is the full documentation of the progress on my project. It includes an overview, theory, hand calculations, circuit schematics, design parameters, Frequency Response Analysis results, oscilloscope measurements, and a full analysis of results and possible improvements.
 
 ![[Audio Equalizer Project Documentation 1.pdf]]
