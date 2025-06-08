@@ -1,0 +1,1 @@
+(X)SPS - Unit of measure for determining how many analog samples an ADC can convert to digital values in one second. So 5 MSPS would be 5,000,000 samples per second, and 200 KSPS would be 200,000 samples per second.
