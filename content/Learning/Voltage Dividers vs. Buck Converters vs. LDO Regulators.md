@@ -30,6 +30,8 @@ $$Vout=Vin*D$$
 
 where $D$ is the duty cycle, or the ratio of the time when the switch is on to the period of the on-off cycle of the switch. The lower the duty cycle, the lower $Vout$ will be.
 
+The gate of the MOSFET (or base of the BJT) directly affects the switching frequency. Thus, PWM can be used to alter the duty cycle to give a reactive way of adjusting the buck output.
+
 The buck converter is an excellent option for efficiency as little heat is dissipated in the circuit and handles higher currents. However, the due to the nature of switching regulators, there tends to be a good amount of noise generated due to the ripple from the low pass filter. The buck converter is great for stepping down large voltages without many losses, and when you can tolerate a little bit of noise.
 
 ### LDO Regulator
@@ -40,7 +42,7 @@ LDO stands for linear drop-out, meaning that there is a specific dropout voltage
 
 $$Vin>Vout+Vdropout$$
 
-The LDO regulator takes advantage of pass elements (MOSFETs or BJT) in their ohmic region. This is the region of transistor operation where the element acts close to a resistor, hence the name ohmic. The region that you are operating a transistor in depends on the gate-source voltage $Vgs$, drain-source voltage $Vds$, and drain current $Ids$.
+The LDO regulator takes advantage of pass elements (either a MOSFET or a BJT) in their ohmic region. This is the region of transistor operation where the element acts close to a resistor, hence the name ohmic. The region that you are operating a transistor in depends on the gate-source voltage $Vgs$, drain-source voltage $Vds$, and drain current $Ids$.
 
 ![[Pasted image 20250527180659.png]]
 
