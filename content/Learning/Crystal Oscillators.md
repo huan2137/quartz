@@ -1,0 +1,1 @@
+In any feedback circuit, the Barkhausen criterion defines the conditions that are required for the circuit to sustain stable oscillations. It states that 1. the product of the gains around the loop must be equal to or greater than 1 at the desired frequency of oscillation and 2. the phase shift around the loop must be 0 or any integer multiple of 2pi.
